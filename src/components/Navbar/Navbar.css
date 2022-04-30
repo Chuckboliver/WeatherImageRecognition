@@ -1,0 +1,27 @@
+.font_navbar{
+    color : whitesmoke;
+    
+}
+
+.navbar{
+    margin: 0;
+    padding-left: 10px;
+    background-color: #5075F4;
+    width: auto;
+    height: auto;
+}
+
+
+.text_nav {
+    display : inline-block;
+    padding: 14px 20px;
+    color : white;
+    text-decoration: none;
+    stroke: black ;
+    stroke-width: 10px;
+}
+
+
+.text_nav:hover {
+    background-color : #D7D7D7; 
+}
