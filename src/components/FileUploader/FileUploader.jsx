@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./FileUploader.css";
 
 const FileUploader = ({ handleFile }) => {
   const hiddenFileInput = useRef(null);
@@ -15,7 +15,7 @@ const FileUploader = ({ handleFile }) => {
 
   return (
     <>
-      <button class="btn btn-success" onClick={handleClick}>
+      <button class="file-button" onClick={handleClick}>
         NEW FILE
       </button>
       <input

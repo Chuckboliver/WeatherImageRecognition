@@ -15,6 +15,10 @@ const Navigation = () => {
           <Link className="text_nav" to="/">
             Medium
           </Link>
+          {/* <a
+            href="https://medium.com/p/ab7a556fc4ec/edit"
+            className="text_nav"
+          /> */}
           <Link className="text_nav" to="/about">
             About
           </Link>

@@ -1,0 +1,32 @@
+.predict-result-container {
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    
+    border-color: black;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #ccc;
+
+    box-sizing: border-box;
+}
+
+.predict-result {    
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.class-name {
+    text-transform: capitalize;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+
+    color: #616161;
+    font-size: 16px;
+}
+
+.predict-result-container .progress {
+    height: 6px;
+}

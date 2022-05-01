@@ -2,7 +2,7 @@
     width: 500px;
     height: 430px;
     border-style: dashed;
-    border-width: 2px;
+    border-width: 3px;
     border-radius: 8px;
     align-items: center;
     margin: auto;
@@ -12,9 +12,10 @@
 
 .text_drop{
     position: relative;
-    top: 35%;
+    top: 40%;
     text-align: center;
-    color: #8A8484;
+    color: black;
+    font-weight: 500;
     font-size: 24px;
     line-height: 18px;
     align-items: center;

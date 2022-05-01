@@ -1,8 +1,69 @@
 .main_contain{
     display:flex;
-    flex-direction: column
+    flex-direction: column;
+    margin-top:0px;
+
 }
 
 .top_contain{
+    float:left;
+    display: flex;
+    margin:auto;
+    height: auto;
+    font-size:18px;
 
+}
+
+.bottom_contain{
+    display: flex;
+    margin:auto;
+    font-weight: bold;
+    font-size:20px;
+    height: auto;
+    width: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    margin : 50px;
+    margin-bottom: 20px;
+}
+
+
+.display_image_info{
+    /*Same Resolution*/
+    object-fit: contain;
+
+    width:300px;
+    height:400px;
+    margin: 0px 100px;
+    /* border-style: solid;
+    border-width: 2px; */
+
+    filter: drop-shadow(0 0 4px rgb(0, 0, 0));
+}
+
+.display_image_logo{
+    width:120px;
+    height:100px;
+    /* border-right-style: solid;
+    border-width: 2px; */
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+
+.info_text{
+    text-align: center;
+    margin-top: 10px;
+}
+    /* div{
+        border-style: solid;
+        border-width: 2px;
+    } */
+
+.github-link {
+    text-decoration: none;
 }

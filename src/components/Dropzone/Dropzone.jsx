@@ -14,7 +14,9 @@ const DropzoneField = ({ onDrop }) => {
       <div {...getRootProps({ className: "dropzone" })}>
         <input {...getInputProps()} />
         <p className="text_drop">Drag image file here or</p>
-        <p className="text_drop">browse from your computer</p>
+        <p className="text_drop">
+          <u>browse</u> from your computer
+        </p>
       </div>
     </section>
   );
