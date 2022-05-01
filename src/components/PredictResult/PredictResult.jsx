@@ -1,6 +1,5 @@
 import React from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const PredictResult = ({ predicts }) => {
   const sortPredicts = predicts.sort((a, b) => b.probability - a.probability);

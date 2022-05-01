@@ -3,25 +3,47 @@
     
 }
 
-.navbar{
+.project-name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    left: 10px;
+    margin: 14px 0px 14px 35px;
+    /* padding: 10px 20px; */
+}
+
+.navbar-container{
     margin: 0;
     padding-left: 10px;
     background-color: #5075F4;
     width: auto;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
-
 
 .text_nav {
     display : inline-block;
-    padding: 14px 20px;
+    padding: 10px 20px;
     color : white;
     text-decoration: none;
     stroke: black ;
     stroke-width: 10px;
+    border-radius: 8px;
+    margin: 4px 15px;
+    width: 100px;
+    text-align: center;
 }
 
 
 .text_nav:hover {
     background-color : #D7D7D7; 
 }
+
+.color-nav {
+    background-color: #5075F4;
+}
+
+

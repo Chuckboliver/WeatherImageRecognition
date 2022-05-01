@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Predict from "../../components/Predict/Predict";
 import * as tf from "@tensorflow/tfjs";
 import { useLoadModel } from "../../hooks/useLoadModel";
+import Loader from "../../components/Loader/Loader";
 
 const Home = () => {
   const [model] = useLoadModel();
@@ -82,11 +83,13 @@ const Home = () => {
     setPredictResult(classProbability);
   };
 
-  if (!model) return "Loading the model";
+  console.log(predictResult);
 
   return (
     <>
-      {!isPredict ? (
+      {!model ? (
+        <Loader />
+      ) : !isPredict ? (
         <DropzoneField onDrop={handleOnDrop} />
       ) : (
         <Predict
