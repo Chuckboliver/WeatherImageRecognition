@@ -12,13 +12,14 @@ const Navigation = () => {
           <Link className="text_nav" to="/">
             Home
           </Link>
-          <Link className="text_nav" to="/">
-            Medium
-          </Link>
-          {/* <a
-            href="https://medium.com/p/ab7a556fc4ec/edit"
+          <a
             className="text_nav"
-          /> */}
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://medium.com/@tumzazazaza123/ab7a556fc4ec"
+          >
+            Medium
+          </a>
           <Link className="text_nav" to="/about">
             About
           </Link>
