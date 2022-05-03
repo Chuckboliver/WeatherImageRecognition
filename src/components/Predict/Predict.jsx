@@ -15,33 +15,6 @@ const Predict = ({
   handleNewFile,
 }) => {
   return (
-    // <div className="main">
-    //   {predicts.length === 0 && <Loader />}
-    //   <div className="left_contain">
-    //     <img
-    //       className="preview_image"
-    //       src={image}
-    //       alt="error"
-    //       onLoad={predictFunc}
-    //     />
-    //   </div>
-    //   <div className="right_contain">
-    //     {predicts.length > 0 && (
-    //       <>
-    //         <div className="block_list">
-    //           <PredictResult predicts={predicts} />
-    //         </div>
-    //         <div className="block_view">
-    //           <button className="reset" onClick={handleReset}>
-    //             RESET
-    //           </button>
-    //           <FileUploader handleFile={handleNewFile} />
-    //         </div>
-    //       </>
-    //     )}
-    //   </div>
-    // </div>
-
     <Container className="predict-main-container">
       {predicts.length === 0 && <Loader />}
       <Row>

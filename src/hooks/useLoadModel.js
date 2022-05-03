@@ -6,9 +6,8 @@ export const useLoadModel = () => {
   console.log("Hook model");
   useEffect(() => {
     async function loadModel() {
-      console.log("Load model...");
       const loadModel = await tf.loadLayersModel("./model01/model.json");
-      console.log("Load modelsuccessful");
+
       setModel([loadModel]);
     }
 
